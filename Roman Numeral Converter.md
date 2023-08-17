@@ -1,3 +1,27 @@
+<h1>Roman Numeral Converter</h1>
+</br>
+Convert the given number into a roman numeral.
+
+Roman numerals	Arabic numerals
+M	1000
+CM	900
+D	500
+CD	400
+C	100
+XC	90
+L	50
+XL	40
+X	10
+IX	9
+V	5
+IV	4
+I	1
+All roman numerals answers should be provided in upper-case.
+
+
+<h2>Solution 1</h2>
+
+```
 function convertToRoman(num) {
  var lookup = {
     M:1000,
@@ -29,14 +53,15 @@ function convertToRoman(num) {
 }
 
 convertToRoman(36);
+```
 
 
 
 
 
+<h2>Solution 2</h2>
 
-
-
+```
 function convertToRoman(num) {
   let result = '';
 
@@ -97,8 +122,10 @@ function convertToRoman(num) {
     }
   }
 
+
   return result;
 }
 
-console.log(convertToRoman(3999));  // Output: "MMMCMXCIX"
+
 console.log(convertToRoman(36));    // Output: "XXXVI"
+```
