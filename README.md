@@ -1,2 +1,2 @@
 # FreeCodeCamp
-Javascript final project on FreeCodeCamp 
+Javascript - Algorithms and Data Structure final project on FreeCodeCamp 
